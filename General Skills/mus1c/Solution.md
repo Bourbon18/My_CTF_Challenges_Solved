@@ -10,7 +10,7 @@
 ## Solution
 
 
-**Step** 1: Create a folder mus1c and download [song](https://jupiter.challenges.picoctf.org/static/c594d8d915de0129d92b4c41e25a2313/lyrics.txt) in this challenge by using `mkdir` and `wget`
+**Step** 1: Create a folder "mus1c" and download [song](https://jupiter.challenges.picoctf.org/static/c594d8d915de0129d92b4c41e25a2313/lyrics.txt) in this challenge to this folder by using `mkdir` and `wget`
 
 ```sh
 mkdir mus1c
