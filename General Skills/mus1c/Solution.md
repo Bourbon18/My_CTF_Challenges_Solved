@@ -5,17 +5,17 @@
 
 **Hint**: Do you think you can master rockstar?
 
+> Note: Put it in the picoCTF{} flag format.
+
 ## Solution
 
-> So, what is "caas":
->
->  Containers as a service (CaaS) is a cloud-based service that allows software developers and IT departments to upload, organize, run, scale, and manage containers by using container-based virtualization.
 
-- I use FireFox for this challenge
+**Step** 1: Create a folder mus1c and download [song](https://jupiter.challenges.picoctf.org/static/c594d8d915de0129d92b4c41e25a2313/lyrics.txt) in this challenge by using  `wget`
 
-**Step** 1: Copy the [link](https://caas.mars.picoctf.net/) in this challenge and paste into a broswer(Chorme, Firefox, etc)
+```sh
+wget https://jupiter.challenges.picoctf.org/static/c594d8d915de0129d92b4c41e25a2313/lyrics.txt
+```
 
-![Image of step 1](image0.png)
 
 
 **Step 2** : Make a request to the following URL to cowsay your message
