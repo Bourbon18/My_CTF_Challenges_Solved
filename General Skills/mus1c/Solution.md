@@ -23,33 +23,36 @@ wget https://jupiter.challenges.picoctf.org/static/c594d8d915de0129d92b4c41e25a2
 ![Image of step1](image1.png)
 
 
-**Step 2** : Make a request to the following URL to cowsay your message
+**Step 2** : Open and find the webpage name "Rockstar"
 
-Follow the instruction in the website I will copy the URL, the message I will write a random sring like the iamge below 
+I will use `mousepad` to open the lyrisc.txt 
+
+```sh
+mousepad lyrics.txt
+```
+
+![Image of step 2.1](image2.png)
+
+Following, I will discover the site base on imply of challenge
 
 ```
-https://caas.mars.picoctf.net/cowsay/jajgagjagjajgal
+https://web.archive.org/web/20190522020843/https://codewithrockstar.com/online
+
 ```
 
-> You can copy and try it on your browser
+Next, paste the contents of the lyrics.txt file and press "Rock!"
 
-![Iamge of step 2](image1.png)
+And we see that the web has returned a series of numbers in the Ascii code table.
+
+![Iamge of step 2.2](image3.png)
+
+
 
 **Step 3** : Find the `Flag`
 
-As I mention above, I can use the command on the url bar like using command on terminal, I will use command **ls-la** to lis all file:
-```
-https://caas.mars.picoctf.net/cowsay/jajgagjagjajgal;ls-la
-```
+I will search for a website with the keyword "convert Ascii code to text" and paste this string of numbers and we will find the flag.
 
-![Image of step 3.1](image2.png)
-
-So, after list all all file I can see the file **falg.txt** so let use command:
-```
-https://caas.mars.picoctf.net/cowsay/jajgagjagjajgal;ls-la;cat falg.txt
-```
-
-![Image of step 3.2](image4.png)
+![Image of step 3](image4.png)
 
 
-So, the flag is `picoCTF{moooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo0o}`
+So, the flag is `picoCTF{rrrocknrn0113r}`
