@@ -10,12 +10,17 @@
 ## Solution
 
 
-**Step** 1: Create a folder mus1c and download [song](https://jupiter.challenges.picoctf.org/static/c594d8d915de0129d92b4c41e25a2313/lyrics.txt) in this challenge by using  `wget`
+**Step** 1: Create a folder mus1c and download [song](https://jupiter.challenges.picoctf.org/static/c594d8d915de0129d92b4c41e25a2313/lyrics.txt) in this challenge by using `mkdir` and `wget`
+
+```sh
+mkdir mus1c
+```
 
 ```sh
 wget https://jupiter.challenges.picoctf.org/static/c594d8d915de0129d92b4c41e25a2313/lyrics.txt
 ```
 
+![Image of step1](image1.png)
 
 
 **Step 2** : Make a request to the following URL to cowsay your message
